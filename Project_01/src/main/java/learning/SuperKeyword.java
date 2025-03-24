@@ -14,6 +14,7 @@ public class SuperKeyword extends Parent {
 	
 	SuperKeyword(){
 		super("Using Super Class with constructor 1");
+//		super();
 		System.out.println("Not Over Load Constructor");
 		
 	}

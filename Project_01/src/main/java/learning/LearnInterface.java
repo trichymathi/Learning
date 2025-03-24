@@ -31,6 +31,7 @@ class bikeName implements vehicleName{
 	}
 	
 }
+
 public class LearnInterface {
 
 	public static void main(String[] args) {
