@@ -3,8 +3,9 @@ import java.util.*;
 public class collectionList {
 
 	public static void main(String[] args) {
-		ArrayList<Integer> list = new ArrayList<Integer>();
 		
+//		ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(100,200,100));
+		ArrayList<Integer> list = new ArrayList<Integer>();
 		//How to add
 		list.add(100);
 		list.add(200);
@@ -12,6 +13,7 @@ public class collectionList {
 		
 		System.out.println(list);
 		
+//		Set<Integer> set = new HashSet<Integer>(Arrays.asList(100,200,100));
 		Set<Integer> set = new HashSet<Integer>();
 		set.add(100);
 		set.add(200);

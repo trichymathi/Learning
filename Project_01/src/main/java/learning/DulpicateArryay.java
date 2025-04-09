@@ -23,18 +23,19 @@ public class DulpicateArryay {
 			}
 		}
 		
-//		//for Extra
+		//for Extra
 //		String name1="";
 //		for(char c:character) {
 ////			//Unique Values
-////		if(map.get(c)==1) {
-////			System.out.println(c);
-////		}
+//		if(map.get(c)==1) {
+//			System.out.println(c);
+//		}
 ////		    //Duplicate Values
 //			
 //		if(map.get(c)>=2) {
 //			name1=name1+c;
 //		}
+//		
 //		}
 //		System.out.println(name1);
 		
@@ -77,16 +78,16 @@ public class DulpicateArryay {
 			
 		}
 		//for Extra
-		for(int value:a) {
-//			//Unique Values
+//		for(int value:a) {
+////			//Unique Values
 //		if(map.get(value)==1) {
-//			System.out.println(value);
+//			System.out.println("The Unique Values :" + value);
 //		}
-//		    //Duplicate Values
-//		if(map.get(value)==2) {
-//			System.out.println(value);
+////		    //Duplicate Values
+//		if(map.get(value)>=2) {
+//			System.out.println("The Duplicate Values : "+value);
 //		}
-		}
+//		}
 		System.out.println(map);
 //		          
 //		int[] freq = new int[a.length]; // Create New Empty Array 
@@ -161,11 +162,11 @@ public class DulpicateArryay {
 //		int count =0;
 //		getMethodForCountOccurance("test");
 //		getMethodForCountOccurance("MathiMaran");
-//		getMethodForCountOccuranceOfNumbersInArray();
-		int arr[]= {0,0,1,1,1,2,2,3,3,4};
+		getMethodForCountOccuranceOfNumbersInArray();
+//		int arr[]= {0,0,1,1,1,2,2,3,3,4};
 //		twoSum(arr, 6);
-		isPalindrome(-16461);
-		removeDuplicates(arr);
+//		isPalindrome(-16461);
+//		removeDuplicates(arr);
 		
 	}
 }
