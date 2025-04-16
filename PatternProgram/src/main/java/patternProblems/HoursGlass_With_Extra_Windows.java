@@ -19,7 +19,7 @@ public class HoursGlass_With_Extra_Windows {
 7  7  7  7  7  7  7  7  7  7  7  7  7
 	 */
 	public static void main(String[] args) {
-		 int n=7;
+		 int n=5;
 	        //upperPart
 	        for(int i=1;i<=n;i++){
 	            for(int j=1;j<=i-1;j++){
