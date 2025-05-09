@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class FindThirdLargestDigitInArray {
 
 	public static void main(String[] args) {
-		int arr[]= {80,70,60,50,40,90,100,200};
+		int arr[]= {80,70,60,50,40,90,100,200,0};
 		
 //		Arrays.sort(arr);
 //		
