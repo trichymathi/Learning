@@ -30,7 +30,7 @@ class car extends vehicle{
 
 	@Override
 	public void Speed(String speed) {
-		System.out.println("Bike Speed is :"+speed);
+		System.out.println("Car Speed is :"+speed);
 	}
 	public void brandName(String name) {
 		System.out.println("Vehicle Brand Name is : "+ name);

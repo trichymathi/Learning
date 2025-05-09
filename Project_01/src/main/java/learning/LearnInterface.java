@@ -12,6 +12,9 @@ interface vehicleName{
 	
 	public void nameOfTheVehicle();
 	
+	public  static void life() {
+		System.out.println(" From static method Owner is : Maran");
+	}
 	default void Owner() {
 		System.out.println("Owner is : Mathi");
 	}
@@ -36,6 +39,7 @@ public class LearnInterface {
 
 	public static void main(String[] args) {
 		bikeName bk0 = new bikeName();
+		vehicleName.life();
 		bk0.speed();
 		bk0.nameOfTheVehicle();
 		bk0.Owner();
